@@ -1,0 +1,242 @@
+/* Book Now Page Styles */
+.book-now-page {
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef;
+    color: #333;
+}
+
+.book-now-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.book-now-header h1 {
+    font-size: 3rem;
+    color: #343a40;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.book-now-header p {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+.booking-form {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1.1rem;
+    color: #495057;
+    margin-bottom: 8px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+}
+
+.search-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.rooms-available h2 {
+    font-size: 2.2rem;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.room-card {
+    display: flex;
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.room-image {
+    width: 40%;
+    height: 200px;
+    object-fit: cover;
+    border-right: 4px solid #007bff;
+}
+
+.room-info {
+    padding: 15px;
+    flex: 1;
+}
+
+.room-info h3 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.room-info p {
+    font-size: 1rem;
+    color: #495057;
+}
+
+.room-description {
+    margin-top: 10px;
+    font-size: 0.95rem;
+    color: #6c757d;
+    line-height: 1.5;
+}
+
+.view-amenities {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+
+.view-amenities:hover {
+    background-color: #0056b3;
+}
+
+.package-list {
+    margin-top: 30px;
+}
+
+.package-item {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.package-image {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.package-item h3 {
+    font-size: 1.6rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.package-item p {
+    font-size: 1rem;
+    color: #495057;
+}
+
+.book-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-button:hover {
+    background-color: #0056b3;
+}
+
+.view-more {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.view-more:hover {
+    background-color: #0056b3;
+}
+
+.property-details {
+    margin-top: 30px;
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.property-details h2 {
+    font-size: 2rem;
+    color: #343a40;
+    margin-bottom: 15px;
+}
+
+.property-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.property-details p {
+    font-size: 1rem;
+    color: #495057;
+    line-height: 1.6;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: #ffffff;
+    font-size: 0.9rem;
+    border-top: 1px solid #007bff;
+}
+
+.footer p {
+    margin: 0;
+}
+
