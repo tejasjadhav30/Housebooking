@@ -15,7 +15,7 @@
     font-size: 3rem;
     color: #343a40;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .home-header p {
@@ -39,12 +39,23 @@
     overflow: hidden;
     width: 100%;
     max-width: 350px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.room-card:hover {
+    transform: scale(1.05); /* Slightly increase the size on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow on hover */
 }
 
 .room-image {
     width: 40%;
     height: 200px;
     object-fit: cover;
+    transition: transform 0.3s ease; /* Add transition to image for smooth hover effect */
+}
+
+.room-card:hover .room-image {
+    transform: scale(1.1); /* Slightly increase the image size on hover */
 }
 
 .room-info {
@@ -54,7 +65,7 @@
 
 .room-info h2 {
     font-size: 1.6rem;
-    color: #007bff;
+    color: black;
     margin-bottom: 10px;
 }
 
@@ -76,9 +87,9 @@
 
 .carousel .slide img {
     width: 100%;
-    height: 300px; /* Adjust height to your preference */
+    height: 450px; /* Adjust height to your preference */
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 .info-section {
@@ -107,7 +118,7 @@
 
 .info-text h2 {
     font-size: 1.8rem;
-    color: #007bff;
+    color: black;
     margin-bottom: 15px;
 }
 

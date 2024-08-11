@@ -14,7 +14,7 @@ const Dining = () => {
                     <img src={OutOfTheBlueImage} alt="Out of the Blue" />
                     <h3>OUT OF THE BLUE</h3>
                     <p>Out of the Blue at Hotel Le Sutra transforms dining by uniting diverse flavors and cultures in an inclusive ambiance.</p>
-                    <a href="#out-of-the-blue">Discover More</a>
+                    <a href="/discover">Discover More</a>
                 </div>
                 <div className="dining-item">
                     <img src={AngloIndianImage} alt="Anglo Indian Bistro & Cafe" />
